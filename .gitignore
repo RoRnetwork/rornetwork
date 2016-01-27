@@ -10,8 +10,10 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
-!/log/.keep
+/public/uploads/*
+/log/*
 !/tmp/.keep
+/db/schema.rb
 
 # Ignore Byebug command history file.
 .byebug_history
